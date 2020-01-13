@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Términos y condiciones"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sodales ex. Quisque sem metus, dignissim vel vestibulum quis, tempor ut enim. Donec sit amet justo turpis. In ligula turpis, lacinia nec sagittis at, eleifend non nibh. Donec gravida, ligula a placerat commodo, elit tellus pulvinar felis, eu elementum elit nibh eget nisi. Fusce vitae mauris a odio interdum vestibulum vel id sapien. Cras a purus hendrerit, aliquet risus in, ullamcorper tortor. Cras eu consequat purus, sed maximus lectus. Suspendisse purus felis, placerat at pretium eget, ornare bibendum lacus. In varius ac tortor id sodales. Curabitur suscipit viverra tellus eget vestibulum.
+Nullam eget lectus vitae nibh dapibus elementum. Etiam ac hendrerit augue, ut congue turpis. Nullam sed nulla sed velit euismod egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed blandit est sit amet elit suscipit laoreet. In ut ultrices odio. Sed tristique felis et nunc porta, a porta justo rutrum. Morbi leo ligula, efficitur ultricies varius ac, posuere at tellus. Integer blandit suscipit euismod. Etiam vitae rutrum nisl. Nulla scelerisque felis non magna aliquam, eget placerat massa euismod. Morbi ullamcorper sapien ut sem convallis gravida et tincidunt nisi. Nullam eget ligula quis felis aliquet pellentesque id in nunc. Mauris turpis quam, consequat ut facilisis efficitur, mattis efficitur odio."
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:text="Aceptar" />
+
+</LinearLayout>
